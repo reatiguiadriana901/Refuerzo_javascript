@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(221, 227, 247);
+}
+
+#contador{
+    padding: 4rem;
+    font-size: 5rem;
+}
+
+.btn-decrementar{
+    margin: 1.5rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(251, 113, 101);
+    font-weight: 700;
+    
+}
+
+.btn-resetear{
+
+    margin: 1.5rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(255, 249, 143);
+    font-weight: 700;
+
+}
+
+.btn-incrementar{
+
+    margin: 1.5rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(101, 251, 163);
+    font-weight: 700;
+}
+

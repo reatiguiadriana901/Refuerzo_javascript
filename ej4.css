@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(221, 227, 247);
+}
+
+.contenedor-busqueda{
+    margin: 2rem;
+
+}
+
+.buscador{
+    padding: 0.4rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(194, 246, 229)
+}
+
+.lista li{
+    list-style: none;
+}

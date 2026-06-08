@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.general{
+    display:grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    ;
+
+    grid-template-rows:auto 1fr;
+    min-height: 100vh;
+    
+}
+
+.header{
+    display: grid;
+    grid-area: header;
+    /*background-color: rgb(74, 42, 79);*/
+    background-color: rgb(123, 148, 235);
+
+}
+
+.header_container{
+    padding: 1rem;
+}
+
+.header_title{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(253, 196, 216);
+}
+
+.header_description{
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 0.5rem 0 0.5rem;
+    color: rgb(252, 218, 230);
+}
+
+.main{
+    display: grid;
+    grid-area: main;
+    background-color: rgb(255, 187, 211);
+
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 16px;
+     align-items: stretch;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgb(206, 255, 208);
+    text-decoration: none;
+    color: rgb(106, 137, 252);
+    border: 2px solid rgb(106, 137, 252);
+    border-radius: 14px;
+    min-width: 0
+}
+
+.tarjeta_numero{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(74, 38, 109);
+    
+}
+
+.tarjeta_titulo{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.tarjeta_temas{
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(74, 38, 109) ;
+    
+}
+
+.tarjeta_boton{
+    padding-top: 1rem;
+   
+}
+
+
+
+
+@media (min-width: 768px) {
+    
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 16px;
+    }
+
+    .header_title{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(253, 196, 216);
+    }
+
+    .header_description{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 1.4rem 0 1.4rem;
+    color: rgb(252, 218, 230);
+    }
+
+    
+    .tarjeta_numero{
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: rgb(74, 38, 109);
+        
+    }
+
+    .tarjeta_titulo{
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 1rem;
+        
+    }
+
+    .tarjeta_temas{
+        text-align: center;
+        font-size: 1.3rem;
+        color: rgb(74, 38, 109) ;
+        
+    }
+
+    .tarjeta_boton{
+        padding-top: 1rem;
+        font-size: 1.4rem;
+    
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+        padding: 16px;
+    }
+    
+}
+

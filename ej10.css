@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(215, 244, 247);
+}
+
+.contenedor {
+    position: relative;
+    width: 300px;
+}
+
+#buscador {
+    width: 100%;
+    padding: 0.7rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#sugerencias {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    list-style: none;
+    z-index: 10;
+}
+
+#sugerencias li {
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+#sugerencias li:hover {
+    background-color: rgb(215, 244, 247);
+}

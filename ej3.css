@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(221, 227, 247);
+}
+
+.password-input {
+    padding: 0.6rem;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    outline: none; 
+    margin: 1rem;
+}
+
+.borde-verde{
+    border: 2px solid rgb(98, 251, 174);
+
+}
+
+.borde-rojo{
+    border: 2px solid rgb(250, 89, 84);
+}

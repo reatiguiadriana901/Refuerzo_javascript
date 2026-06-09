@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(156, 245, 201);
+}
+
+
+.lista li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+.imagen_camisa{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://img.freepik.com/vector-gratis/plantilla-etiqueta-parte-delantera-camisa-rosa-aislada_1308-65670.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen_pantalon{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://img.magnific.com/vector-premium/pantalones-cortos-mezclilla-largos-variacion-color-nino-colorear-sobre-fondo-blanco_555467-3700.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen_zapatos{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://img.magnific.com/vector-gratis/dibujado-mano-ilustracion-dibujos-animados-zapatos-correr_23-2150985777.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen_falda{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://img.freepik.com/vector-premium/falda-azul-mujer-dibujos-animados-vector_574806-3957.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen_vestido{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://img.freepik.com/vector-premium/vestido-rosa_757131-11948.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen_pantaloneta{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2PcJn5Q7MZcjeHju3G_cQOxF5RyaIrRSd1A&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nombre{
+    font-weight: 700;
+}
+
+button{
+    padding: 0.3rem;
+    background-color: rgb(215, 177, 248);
+    border: 2px solid rgb(21, 20, 22);
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+.lista li.favorito {
+    background-color: rgb(255, 243, 176); 
+}
+
+

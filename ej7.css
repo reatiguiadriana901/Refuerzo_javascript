@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(215, 244, 247);
+
+}
+
+.dark_mode{
+    background-color: rgb(20, 18, 18);
+}
+
+.button{
+    padding: 0.7rem;
+    background-color: rgb(228, 235, 162);
+    border: 2.5px solid rgb(17, 17, 17);
+    border-radius: 2rem;
+
+}
